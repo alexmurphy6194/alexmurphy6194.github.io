@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 	<head>
@@ -11,77 +11,170 @@
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
+        <link rel="stylesheet" href="css/style.css">
 	</head>
   
-  <body>
+    <body>
+        <div id="bgimg">
+            <div class="jumbotron mb-0 radius-0 margin-right-0 smooth-scroll" id="bgcolor">
+                <div class="container smooth-scroll">
+                    <div class="row">
+                        <div class="col-xl-12 text-center px-2">
+                            <h1 class="display-1 mt-4 text-white"><strong>Hi, I'm Alex<span class="vim-caret">.</span></strong></h1>
+                            <h1 class="display-1 text-white"><strong>I'm a Developer.</strong></h1>
+                            <!-- <div class="lead mb-3 text-mono text-success">Developer.</div> -->
+                            <div class="text-mono">
+                                <p>
+                                    <a class="btn btn-primary mt-4 btn-lg" href="https://www.linkedin.com/in/alex-murphy-403a2516a" role="button">
+                                        LinkedIn
+                                    </a>
+                                    <a class="btn btn-primary mt-4 btn-lg" href="https://alexmurphy6194.github.io" role="button">
+                                        GitHub
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row smooth-scroll">
+                        <div class="col xl-12 text-center px-2 smooth-scroll" id="nooverlap">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div>
+                                <h1 class="display-3 text-white py-5">Learn more about what I do</h1>
+                            </div>
+                            <div id="spacing">
+                                <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid mb-0 margin-right-0 bg-primary" id="fix">
+            <h1 class="display-1 mt-4 text-center text-white" id="section2">Development Skills</h1>
+            <br>
+            <br>
+            <br>
+            <div class="card-deck text-center bg-primary container-fluid" id="blackborder">
+                <div class="card border-primary bg-primary">
+                    <img class="card-img-top" src="./img/html.png" alt="HTML">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML/CSS</h5>
+                        <p class="card-text">
+                            Creating webpages with HTML and applying custom stylings with
+                            CSS and Bootstrap
+                        </p>
 
-	<div class="jumbotron mb-0 radius-0 margin-right-0 smooth-scroll">
-	  <div class="container smooth-scroll">
-		  <div class="row">
-			<div class="col-xl-12 text-center px-2">
-			  <h1 class="display-1 mt-4 text-white"><strong>Hi, I'm Alex<span class="vim-caret">.</span></strong></h1>
-			  <h1 class="display-1 text-white"><strong>I'm a Developer.</strong></h1>
-			  <!-- <div class="lead mb-3 text-mono text-success">Developer.</div> -->
-			  <div class="text-mono">
-				<p><a class="btn btn-primary mt-4 btn-lg" href="https://www.linkedin.com/in/alex-murphy-403a2516a" role="button">
-				  LinkedIn
-				</a>
-				<a class="btn btn-primary mt-4 btn-lg" href="https://alexmurphy6194.github.io" role="button">
-				  GitHub
-				</a>
-				</p>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row smooth-scroll">
-			<div class="col xl-12 text-center px-2 smooth-scroll">
-			<br>
-			<br>
-			<br>
-			<br>
-				<h1 class="display-3 text-white py-5">Learn more about what I do</h1>
-				<a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
-			</div>
-		  </div>
-	  </div>
-	</div>
-	<div class="jumbotron jumbotron-fluid mb-0 margin-right-0 bg-primary">
-		<h1 class="display-1 mt-4 text-center text-white" id="section2">Development Skills</h1>
-		<br>
-		<br>
-		<div class="card-deck text-center bg-primary">
-			<div class="card border-primary bg-primary">
-				<img class="card-img-top" src="./img/html.png" alt="HTML">
-				<div class="card-body">
-					<h5 class="card-title">HTML</h5>
-					<p class="card-text">All the basic fundamentals of html5, making an html5 website, and  File transfer Protocol.</p>
-					
-				</div>
-			</div>
-			<div class="card border-primary bg-primary">
-				<img class="card-img-top" src="./img/css.png" alt="CSS">
-				<div class="card-body">
-					<h5 class="card-title">CSS</h5>
-					<p class="card-text">All the basic fundamentals of CSS, customizing websites and utilizing libraries such as BootStrap</p>
-					
-				</div>
-			</div>
-			<div class="card border-primary bg-primary">
-				<img class="card-img-top" src="./img/js3.png" alt="JS">
-				<div class="card-body">
-					<h5 class="card-title">JavaScript</h5>
-					<p class="card-text">History and background of JavaScript, Fundamental elements of JavaScript and how to create programs using the language, Using JavaScript in combination with HTML5 and CSS3 to create dynamic web pages, jQuery.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    </div>
+                </div>
+                <div class="card border-primary bg-primary">
+                    <img class="card-img-top" src="./img/sql.png" alt="sql">
+                    <div class="card-body">
+                        <h5 class="card-title">SQL</h5>
+                        <p class="card-text">Building Relational Databases and the procedures to access data</p>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  
+                    </div>
+                </div>
+                <div class="card border-primary bg-primary">
+                    <img class="card-img-top" src="./img/js3.png" alt="JS">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Using JavaScript in combination with HTML5 and CSS3 to create dynamic web pages, jQuery.</p>
+                    </div>
+                </div>
+                <div class="card border-primary bg-primary">
+                    <img class="card-img-top" src="./img/csharp.png" alt="C#">
+                    <div class="card-body">
+                        <h5 class="card-title">C#</h5>
+                        <p class="card-text">Building standalone programs as well as adding functionality to ASP.NET MVC systems.</p>
+                    </div>
+                </div>
+                <div class="card border-primary bg-primary">
+                    <img class="card-img-top" src="./img/asp2.png" alt="ASP">
+                    <div class="card-body">
+                        <h5 class="card-title">ASP.NET</h5>
+                        <p class="card-text">Creating and designing active webpage functionality using MVC, Entity Framework, C# and Razr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid mb-0 margin-right-0 bg-secondary" id="dumb">
+            <h1 class="display-1 mt-4 text-center text-white">Experience</h1>
+            <p class="display-3">Member of Dev Team building website</p>
+            <p class="display-4">Some features I designed</p>
+            <div class="card-deck text-center bg-secondary container-fluid" id="experience">
+                <div class="card border-secondary bg-secondary">
+                    <h5 class="card-title text-white">Add notifications to alert Admin of new Updates</h5>
+                    <img class="card-img-top" id="imgstuff" src="./img/updates1.png" alt="Click to Enlarge">
+                    <div class="card-body" id="body1">
+                        <a class="btn-primary" href="#modal1" role="button" data-toggle="modal"><h5 class="card-title">Check out the Code!</h5></a>
+                        <p class="card-text">
 
-	</body>
+                        </p>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header" id="center">
+                                    <h4 class="modal-title text" id="exampleModalLabel">Add notifications to alert Admin of new Updates</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body" id="width">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Added an super script number to the Updates tab on the Job Placement Dropdown
+                                                so that the Admin would know how many updates there are in the Notifications table for them to check.
+                                            </p>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;This was tricky because the JP drop down is created in the Layout view and I needed to pass data to it.
+                                                Every solution that involved passing data model to the layout view was way overly complicated and messy.
+                                                I found that by adding a method in the Startup.cs, which gets called every time the application is run,
+                                                I could get the data at the beginning of the site load, then call the controller method as the Layout View
+                                                is rendered and display it using razr across all the views.
+                                            </p>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;It required a combination of all aspects of MVC and took a bit of trickery to be able to get it to work.
+                                            The idea to get the data in startup was kind of on a whim, so I was super pleased that it worked so well!
+                                            Also, learning to call a method from the View and assign it to varibles, which were then displayed on the view,
+                                            was a new skill I learned in the process.
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-responsive" id="photo" src="./img/startup.png" alt="startup" />
+                                            <br />
+                                            <img id="photo1" src="./img/layout2.png" alt="layout" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>               
+            </div>
+        </div>
+                
+                
+
+            
+
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+</body>
 </html>
