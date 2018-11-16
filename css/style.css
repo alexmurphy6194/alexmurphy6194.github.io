@@ -1,5 +1,6 @@
 ﻿body {
 }
+
 #bgimg {
     background-image: url(../img/pix.jpg);
     background-size: 100% 100%;
@@ -20,6 +21,7 @@
     -webkit-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
 }
+
 .card-img-top {
     /*width: 225px;
     height: 225px;
@@ -27,50 +29,85 @@
     margin: auto;*/
     border-radius: 25px;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 #bgcolor {
     background-color: rgba(40,42,56,0.335);
-    height:100%;
+    height: 100%;
 }
+
 #spacing {
     margin-top: 50px;
 }
-#nooverlap{
-   
+
+#nooverlap {
 }
-#fix{
-    height:100%;
-    
-}
-#blackborder{
-    
+
+#fix {
+    height: 100%;
 }
 
 
+
+#bg {
+    background-color: #0c0d16;
+    border-color: #0c0d16;
+}
+
+#bg1 {
+    background-color: #0c0d16;
+    border-color: #0c0d16;
+}
+
+#bg2 {
+    background-color: #0c0d16;
+    border-color: #0c0d16;
+}
 
 #exampleModal {
     width: 100%;
     height: 100%;
 }
+
 #imgstuff {
     width: 900px;
     height: 500px;
     display: block;
     margin: auto;
-    transition:transform .2s;
+    transition: transform .2s;
+}
+
+#imgstuff2 {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    transition: transform .2s;
+}
+
+#imgstuff3 {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    transition: transform .2s;
 }
 /*#imgstuff:hover{
     transform: scale(1.2);
 }*/
-#experience{
-    width:100%;
-    margin-left:0px;
+#experience {
+    width: 100%;
+    margin-left: 0px;
 }
-#dumb{
-    width:100%;
+
+#dumb {
+    width: 100%;
+    background-color: #0c0d16;
 }
+
 #photo {
     width: inherit;
     display: block;
@@ -78,9 +115,11 @@ html {
     border-radius: 25px;
     transition: transform .2s;
 }
+
     #photo:hover {
         transform: scale(1.2);
     }
+
 #photo1 {
     width: inherit;
     display: block;
@@ -92,15 +131,53 @@ html {
     #photo1:hover {
         transform: scale(1.2);
     }
-#modal1 .modal-content{
-    left:-65%;
-    width: 80vw;
-    height:100%
 
+#photo2 {
+    width: inherit;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    transition: transform .2s;
 }
-#center{
-    align-content:center;
+
+    #photo2:hover {
+        transform: scale(1.2);
+    }
+
+#photo3 {
+    width: inherit;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    transition: transform .2s;
 }
+
+    #photo3:hover {
+        transform: scale(1.2);
+    }
+
+#modal1 .modal-content {
+    left: -65%;
+    width: 80vw;
+    height: 100%
+}
+
+#modal2 .modal-content {
+    left: -65%;
+    width: 80vw;
+    height: 100%
+}
+
+#modal3 .modal-content {
+    left: -65%;
+    width: 80vw;
+    height: 100%
+}
+
+#center {
+    align-content: center;
+}
+
 @media only screen and (max-width: 1000px) {
     .card-img-top {
         width: 225px;
@@ -112,9 +189,8 @@ html {
     .card-deck {
         display: block;
     }
-
-    
 }
+
 @media only screen and (max-width: 700px) {
     #imgstuff {
         width: 500px;
@@ -127,5 +203,4 @@ html {
         #imgstuff:hover {
             transform: scale(1.2);
         }
-
 }
